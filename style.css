@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+      background-color: black;
+      color: rgb(2, 108, 7);
+  }
+  
+   /*nav section start*/
+   .cc{
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+.menu>ul >ul>li {
+    float: left;
+    list-style: none;
+}
+.menu>ul >ul>li >a{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    line-height: 50px;
+    padding: 0px 20px;
+    display: block;
+
+}
+.menu > ul > li {
+    float: right;
+    list-style: none;
+}
+
+.menu > ul > li > a {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 251, 251);
+    line-height: 50px;
+    padding: 0px 20px;
+    display: block;
+    transition: all linear 0.3s;
+}
+
+.menu > ul > li > a:hover,
+.menu > ul > li > a.active{
+    background-color: rgb(1, 1, 22);
+    color: rgb(234, 219, 9);
+    border-radius: 10px;
+}
+ /*nav section end*/
+
+ /*cover section start*/
+ .img-fluid{
+  position: relative;
+  border-radius: 20%;
+ }
+ /*cover section end*/
+ 
+ /*about section start*/
+.about{
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 100%;
+}
+.img{
+    border-radius: 20%;
+}
+.about:hover{
+    background-color: rgb(1, 1, 22);
+    color: rgb(234, 219, 9);
+    border-radius: 30px;
+}
+ /*about section end*/
+
+  /*varient section start*/
+  .service {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .course-col {
+    flex-basis: 31%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px 12px;
+    margin-bottom: 5%;
+  }
+    /*varient section end*/
+    
+    /*my work.contact section start*/
+#contact .contact-item h2,
+#contact .contact-item p{
+    text-align: center;
+}
+#contact .contact-item .p5{
+    width: 680px;
+    line-height: 30px;
+    margin-bottom: 82px;
+}
+#contact .contact-form{
+    background-color: rgb(1, 1, 22);
+    height: 564px;
+    margin-bottom: 40px;
+}
+#contact .contact-form input,
+#contact .contact-form textarea{
+    display: block;
+    margin: 0 auto;
+    background: none;
+    padding: 18px 0;
+    margin-bottom: 40px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #7e8287;
+    width: 640px;
+}
+#contact .contact-form input::placeholder,
+#contact .contact-form textarea::placeholder{
+    color: rgb(2, 108, 7);
+}
+#contact .contact-form input.large,
+#contact .contact-form textarea.large{
+    width: 920px;
+}
+#contact .contact-form textarea{
+    resize: none;
+    font-family: 'Open Sans','sans-serif';
+}
+#contact .contact-form button{
+    background-color: #cfc91d;
+    padding: 15px 64px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    color: #0b1016;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/*my work.contact section end*/
+
+
+/*last section start*/
+#last p{
+    background-color: #000000;
+    color: #7e8287;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 35px 0;
+}
+/*last section end*/
